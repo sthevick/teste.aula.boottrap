@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.banner{
+    background-color: #e9ecef;
+    padding: 100px 20px;
+}
+
+.banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #212529;
+}
+
+.banner p{
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-titlle{
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.btn-primary{
+    background-color: aquamarine;
+    color: #123a56;
+}
+
+.rodape{
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    margin-top: 50px;
+}
